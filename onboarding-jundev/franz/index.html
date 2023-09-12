@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8" />
+		<title>Gestor de Tareas</title>
+
+		<script src="js/codigotarea.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+		
+	</head>
+	<body>
+        <section id="introduccion">
+            <h1 class="titulo">Gestor de Tareas</h1>
+            <img src="./gestorTareas.png" alt="Imagen de Gestion de Tareas" width="100" height="100">
+            <p class="parrafo">
+                Un sistema de gestión de tareas es una herramienta de planificación, seguimiento y coordinación de las actividades 
+                de un equipo o proyecto. Suele consistir en una interfaz 
+                en línea en la que los usuarios pueden crear y asignar tareas, seguir su progreso y colaborar con sus colegas.
+
+                Un sistema de gestión de tareas es especialmente útil para equipos que trabajan en proyectos complejos y necesitan 
+                seguir el progreso de distintas tareas simultáneamente. También ayuda a organizar mejor el trabajo, asignando responsabilidades
+                y fijando los plazos para cada tarea.
+            </p>
+            <button id="boton-gestionar">Gestionar Actividades</button>
+
+        </section>
+
+        <section id="ingreso-tareas">
+            <h2 class="titulo2">Indique la Nueva Tarea</h1><br>
+            <label for="tarea">Tarea</label>
+            <input type="text" id="tarea"/><br>
+
+            <label for="prioridad">Prioridad de la Tarea</label>
+            <select name="prioridad" id="prioridad">
+                <option value="alta"> Alta </option>
+                <option value="media"> Media </option>
+                <option value="baja"> Baja </option>
+
+            </select><br>
+
+
+            <label for="descripcion">Descripcion de la Tarea</label>
+            <input type="text" id="descripcion"/><br>
+
+
+            <label for="dias">Dias Estimados de Ejecucion</label>
+            <input type="text" id="dias"/><br>
+
+        
+            <button id="boton-guardar">Crear Tarea</button><br>
+
+            
+        </section>
+        <section id="almacenamiento">
+
+
+        </section>
+        <section id="reiniciar">
+            <button id="boton-reiniciar">Reiniciar Gestor</button>
+        </section>
+
+
+	</body>
+</html>

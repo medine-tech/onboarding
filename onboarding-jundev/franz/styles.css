@@ -1,0 +1,27 @@
+body{
+    background: rgb(65, 156, 156);
+}
+.titulo, .titulo2{
+    color:black;
+    width: 240px;
+    height: 50px;
+    justify-content: center;
+    align-items:  center;
+    
+ 
+    font-family: revert-layer;
+}
+.parrafo{
+    font-family:'Courier New';
+    justify-content: center;
+}
+#introduccion, #ingreso-tareas,
+#almacenamiento, #reiniciar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: : center;
+    
+       
+}
