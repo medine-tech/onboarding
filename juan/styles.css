@@ -6,7 +6,7 @@
 
 body {
 
-    background: url("./img/image-three.jpg") no-repeat center center/cover;
+    background: url("./Img/image-three.jpg") no-repeat center center/cover;
     backdrop-filter: blur(5px);
     color: #fff;
     font-family: "Poppins", sans-serif;

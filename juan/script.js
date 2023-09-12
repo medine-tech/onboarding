@@ -18,8 +18,11 @@ function addTodo(event) {
     todoDiv.appendChild(newTodo);
     //ADDING TO LOCAL STORAGE 
     saveLocalTodos(todoInput.value);
+
+
     
-    const completedButton = document.createElement("button");
+    
+ const completedButton = document.createElement("button");
     completedButton.innerHTML = '<i class="fas fa-check-circle"></li>';
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
@@ -30,7 +33,10 @@ function addTodo(event) {
     todoDiv.appendChild(trashButton);
     
     todoList.appendChild(todoDiv);
-    todoInput.value = "";
+  todoInput.value = "";
+
+
+ 
 }
 
 function deleteCheck(e) {
